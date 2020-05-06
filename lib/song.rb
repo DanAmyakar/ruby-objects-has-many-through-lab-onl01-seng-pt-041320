@@ -2,10 +2,10 @@ require 'pry'
 
 class Song
   
-  attr_accessor :artist, :title, :genre
+  attr_accessor :title, :artist, :genre
   @@all = []
   
-  def initialize(artist, title, genre)
+  def initialize(title, artist, genre)
     binding.pry
     @title = title
     @artist = artist
