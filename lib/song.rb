@@ -5,7 +5,7 @@ class Song
   attr_accessor :title, :artist, :genre
   @@all = []
   
-  def initialize(title, artist, genre)
+  def initialize(artist, title, genre)
     binding.pry
     @title = title
     @artist = artist
