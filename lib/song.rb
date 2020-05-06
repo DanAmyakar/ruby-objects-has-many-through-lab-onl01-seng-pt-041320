@@ -6,7 +6,6 @@ class Song
   @@all = []
   
   def initialize(title, artist, genre)
-    binding.pry
     @title = title
     @artist = artist
     @genre = genre
